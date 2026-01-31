@@ -19,6 +19,7 @@ CONFIG_SCHEMA = vol.Schema({
 
 
 class FlashforgeConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
+    VERSION = 1
     data: Optional[Dict[str, Any]]
 
     async def async_step_user(self, user_input: Optional[Dict[str, Any]] = None):
