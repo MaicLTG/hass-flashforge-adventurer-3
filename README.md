@@ -1,4 +1,4 @@
-# FlashForge Adventurer 3 for Home Assistant
+# Bresser Rex for Home Assistant based on the Flashforge Adventure 3 Integration
 
 A custom Home Assistant integration for the FlashForge Adventurer 3 printer.
 
@@ -22,12 +22,9 @@ address in your router settings.
 
 ## Printer compatibility
 
-I own the Adventurer 3 printer at the moment, so that's the model which is 100%
-supported. There are reports of other users trying this integration with other
-FlashForge printers:
-
 | Printer | Notes |
 | - | - |
+| Bresser Rex | supported |
 | FlashForge Adventurer 3 | supported |
 | FlashForge Adventurer 4 | seems to work ([related issue](https://github.com/modrzew/hass-flashforge-adventurer-3/issues/1)) |
 | FlashForge Adventurer 3X | seems to work ([related issue](https://github.com/modrzew/hass-flashforge-adventurer-3/issues/2)) |
