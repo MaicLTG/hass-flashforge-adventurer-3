@@ -18,7 +18,7 @@ CONFIG_SCHEMA = vol.Schema({
 })
 
 
-class FlashforgeConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
+class FlashforgeConfigFlow(config_entries.ConfigFlow, domain=bresser_rex):
     VERSION = 1
     data: Optional[Dict[str, Any]]
 
