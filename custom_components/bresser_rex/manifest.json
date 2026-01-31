@@ -1,6 +1,6 @@
 {
-  "domain": "flashforge_adventurer_3",
-  "name": "FlashForge Adventurer 3",
+  "domain": "bresser_rex",
+  "name": "Bresser Rex",
   "codeowners": ["@f00d4tehg0dz"],
   "config_flow": true,
   "dependencies": [],
